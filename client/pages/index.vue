@@ -1,34 +1,29 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: 'default',
+  layout: 'landing',
 })
 
 useHead({ title: 'Page d’accueil - Gabarit de démarrage VueDsfr' })
 </script>
 
 <template>
-  <div class="fr-container fr-mb-5w">
-    <h1 class="fr-mt-3w fr-mt-md-5w fr-mb-5w">
-      Accueil
-    </h1>
+  <section class="fr-container fr-mb-5w">
+    <LandingHero />
+  </section>
 
-    <p>
-      <NuxtLink to="/apropos">
-        À propos
-      </NuxtLink>
-    </p>
+  <section class="fr-container fr-mb-5w">
+    <LandingPropositionValeur />
+  </section>
 
-    <p>
-      <span class="fr-icon-ancient-gate-fill" /> <!-- Icône DSFR -->
-       (<code>&lt;span class="fr-icon-ancient-gate-fill" /></code>)
-    </p>
-    <p>
-      <VIcon name="ri-flag-line" />  <!-- Icône OhVueIcon -->
-       (<code>&lt;VIcon name="ri-flag-line" /></code>)
-    </p>
-    <p>
-      <OhVueIcon name="ri-flag-line" />  <!-- Icône OhVueIcon -->
-       (<code>&lt;OhVueIcon name="ri-flag-line" /></code>)
-    </p>
-  </div>
+  <section class="fr-container fr-mb-5w">
+    <LandingFonctionnalites />
+  </section>
+
+  <section class="fr-container fr-mb-5w">
+    <LandingTemoignages />
+  </section>
+
+  <section>
+    <LandingContact />
+  </section>
 </template>

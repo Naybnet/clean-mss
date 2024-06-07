@@ -1,7 +1,7 @@
 # Gabarit de démarrage de VueDsfr pour Nuxt 3
 
 Nous vous recommandons de regarder la [documentation de Nuxt 3](https://nuxt.com/docs/getting-started/introduction)
-et la [documentation de VueDsfr](https://vue-dsfr.netlify.app).
+et la [documentation de VueDsfr](;https://vue-dsfr.netlify.app).
 
 ## Installation des dépendances
 
@@ -91,4 +91,4 @@ Pour les lancer avec l’interface :
 npm run test:e2e
 ```
 
-Regarder ensuite la [documentation de Nuxt concernant le déploiement](https://nuxt.com/docs/getting-started/deployment).
+Regarder ensuite la [documentation de Nuxt concernant le déploiement](;https://nuxt.com/docs/getting-started/deployment).
